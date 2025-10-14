@@ -39,11 +39,25 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 
-        @viteReactRefresh
-        @vite(['resources/js/app.tsx', "resources/js/pages/{$page['component']}.tsx"])
-        @inertiaHead
+        @if(isset($page) && is_array($page) && isset($page['component']))
+            @viteReactRefresh
+            @vite(['resources/js/app.tsx', "resources/js/pages/{$page['component']}.tsx"])
+            @inertiaHead
+        @else
+            {{-- Non-Inertia view (Blade) — load app.css only to avoid undefined $page error --}}
+            @vite(['resources/js/app.tsx'])
+        @endif
+
+        {{-- allow pages to inject standard head tags when rendering as Blade --}}
+        @hasSection('head')
+            @yield('head')
+        @endif
     </head>
     <body class="font-sans antialiased">
-        @inertia
+        @if(isset($page) && is_array($page) && isset($page['component']))
+            @inertia
+        @else
+            @yield('content')
+        @endif
     </body>
 </html>

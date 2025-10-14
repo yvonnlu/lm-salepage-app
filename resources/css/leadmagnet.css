@@ -1,0 +1,47 @@
+:root{
+  --orange:#ff6a00;
+  --black:#111111;
+  --white:#ffffff;
+  --muted:#6b6b6b;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;color:var(--black);background:var(--white)}
+.lm-container{max-width:1100px;margin:0 auto;padding:40px;display:flex;gap:24px}
+.lm-hero{background:linear-gradient(180deg,rgba(255,106,0,0.06),transparent);padding:40px 0}
+.content{padding-top:20px;padding-bottom:20px}
+.lm-left{flex:1}
+.lm-right{width:320px}
+h1{font-size:32px;margin:0 0 12px;color:var(--black);line-height:1.1}
+.lm-sub{color:var(--muted);margin-bottom:18px}
+.lm-bullets{list-style:disc;margin-left:20px;color:var(--black);}
+.lm-form-wrap{margin-top:22px}
+.lm-form{display:flex;flex-direction:column;gap:10px}
+.lm-urgency{display:flex;gap:12px;align-items:center;margin-bottom:8px}
+.lm-slots{background:#fff;padding:8px 10px;border-radius:6px;border:1px solid #f0f0f0;font-weight:600}
+.lm-countdown{background:var(--black);color:var(--white);padding:8px 10px;border-radius:6px;font-weight:700}
+.lm-form input{padding:12px;border:1px solid #eee;border-radius:6px}
+.lm-cta{background:var(--orange);color:var(--white);border:0;padding:14px;border-radius:8px;font-weight:700;cursor:pointer}
+.lm-cta:hover{opacity:0.95}
+.lm-micro{font-size:13px;color:var(--muted);margin-top:6px}
+.lm-proof{background:#fff;padding:16px;border-radius:8px;border:1px solid #f3f3f3;margin-bottom:18px}
+.lm-value{background:#fff;padding:16px;border-radius:8px;border:1px solid #f3f3f3}
+.lm-value ul{padding-left:18px;margin:8px 0}
+.lm-total{margin-top:10px;padding-top:8px;border-top:1px dashed #eee}
+.lm-footer{padding:18px 0;background:transparent}
+.small{padding:0 10px}
+.lm-ty{padding:80px 0;text-align:center}
+.lm-back{display:inline-block;margin-top:18px;padding:10px 16px;background:#111;color:#fff;border-radius:6px;text-decoration:none}
+
+@media (max-width:900px){
+  .lm-container{flex-direction:column;padding:20px}
+  .lm-right{width:auto}
+  h1{font-size:26px}
+}
+
+.lm-sections{padding:36px 0}
+.lm-sections h2{font-size:20px;margin-top:18px;color:var(--black)}
+.lm-sections p, .lm-sections li{color:#222;line-height:1.6}
+.lm-sections ol{padding-left:18px}
+.lm-sections ul{padding-left:18px}
+.lm-soldout{background:#aaa;color:#fff}
+

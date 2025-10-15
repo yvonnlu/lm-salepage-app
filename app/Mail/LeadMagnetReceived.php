@@ -20,7 +20,7 @@ class LeadMagnetReceived extends Mailable
     public function build()
     {
         return $this->subject('Thanks — We received your request')
-                    ->view('emails.leadmagnet_confirm')
-                    ->with(['data' => $this->data]);
+            ->view('emails.leadmagnet_confirm')
+            ->with(['data' => $this->data]);
     }
 }

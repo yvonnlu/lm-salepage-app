@@ -56,12 +56,12 @@ Route::post('/lead-magnet/submit', function (Request $request) {
     ]);
 
     $file = storage_path('app/leadmagnet_submissions.csv');
-    $header = !file_exists($file) ? ["timestamp","school_name","your_name","email","phone"] : null;
+    $header = !file_exists($file) ? ["timestamp", "school_name", "your_name", "email", "phone"] : null;
     $row = [
-        now()->toDateTimeString(), 
-        $data['school_name'], 
-        $data['your_name'], 
-        $data['email'], 
+        now()->toDateTimeString(),
+        $data['school_name'],
+        $data['your_name'],
+        $data['email'],
         $data['phone']
     ];
 
@@ -81,7 +81,7 @@ Route::post('/lead-magnet/submit', function (Request $request) {
             'phone' => $data['phone'],
         ]));
     } catch (\Throwable $e) {
-        Log::error('Lead magnet mail failed: '.$e->getMessage());
+        Log::error('Lead magnet mail failed: ' . $e->getMessage());
     }
 
     return redirect()->route('leadmagnet.thankyou');
@@ -97,5 +97,5 @@ Route::middleware(['auth', 'verified'])->group(function () {
     })->name('dashboard');
 });
 
-require __DIR__.'/settings.php';
-require __DIR__.'/auth.php';
+require __DIR__ . '/settings.php';
+require __DIR__ . '/auth.php';

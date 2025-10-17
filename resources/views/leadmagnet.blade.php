@@ -633,7 +633,7 @@
             <h3>Let's Work Together</h3>
             <p class="muted">Start building your email list today</p>
             <div class="urgency">
-              <span class="pill">🔥 <strong id="slotsLeft">{{ $slotsRemaining }}</strong> spots available this month</span>
+              <span class="pill">🔥 <strong id="slotsLeft">7</strong> spots available this month</span>
               <span class="pill dark">⏳ Bonus ends in <strong id="countdown"></strong></span>
             </div>
             <form method="POST" action="{{ route('leadmagnet.submit') }}" id="leadForm">
@@ -784,7 +784,7 @@
     <div class="container">
       <h2>Limited <span class="highlight">Availability</span> This Month</h2>
       <p>I work with a limited number of clients each month to ensure quality. When my schedule is full, new clients will need to wait.</p>
-      <p>Right now, <strong id="slotsLeft2">{{ $slotsRemaining }}</strong> spots remain for this month. Don't wait — these fill up quickly.</p>
+      <p>Right now, <strong id="slotsLeft2">7</strong> spots remain for this month. Don't wait — these fill up quickly.</p>
     </div>
   </section>
 
@@ -908,7 +908,7 @@
   <section class="cta-section">
     <div class="container">
       <h2>Ready to Grow Your <span class="highlight">Email List</span>?</h2>
-      <p>Let's build something great together. <strong id="slotsLeft3">{{ $slotsRemaining }}</strong> spots available this month.</p>
+      <p>Let's build something great together. <strong id="slotsLeft3">7</strong> spots available this month.</p>
       <a href="#leadForm" class="btn-white">Start My Email Growth Journey →</a>
     </div>
   </section>
@@ -920,8 +920,8 @@
   </footer>
 
   <script>
-    // COUNTDOWN
-    const endTime = new Date("{{ $bonusEndsAt }}").getTime();
+    // COUNTDOWN - Set to 48 hours from now
+    const endTime = new Date(Date.now() + 48 * 60 * 60 * 1000).getTime();
 
     function updateCountdown() {
       const now = new Date().getTime();

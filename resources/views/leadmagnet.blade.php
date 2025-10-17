@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Free Lead Magnet for Online Coaches — Get Qualified US Clients in 10 Days</title>
+  <title>Email Growth Partner — Build Your Email List with Confidence</title>
   <meta name="robots" content="noindex, nofollow">
   <link rel="preconnect" href="https://fonts.bunny.net">
   <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700,800,900" rel="stylesheet">
@@ -617,35 +617,35 @@
     <div class="container">
       <div class="hero-grid">
         <div>
-          <span class="badge">🚀 Limited to 10 Coaches Only</span>
-          <h1>Turn Your Coaching Business into a <span class="highlight">Client-Attracting Machine</span> with a High-Converting Lead Magnet — <span class="highlight">100% Free</span></h1>
-          <p class="lead">We'll design and build your custom lead magnet in 10 days — at zero cost — so you can start capturing qualified US clients who are ready to invest in your coaching.</p>
+          <span class="badge">✨ Email Growth Partner</span>
+          <h1>Build Your <span class="highlight">Email List</span> with Strategy, Execution & <span class="highlight">Zero Risk</span></h1>
+          <p class="lead">Work with me to create high-converting lead magnets, sales pages, and email campaigns that grow your audience — backed by a 14-day satisfaction guarantee.</p>
           <ul class="checkmarks">
-            <li>Get a done-for-you lead magnet designed specifically for your coaching niche</li>
-            <li>Attract high-quality US clients who actually want to work with you</li>
-            <li>Start building your email list and automating client acquisition</li>
-            <li>Delivered in 10 days — no creative work on your end</li>
-            <li>No contracts, no payment, no strings attached</li>
+            <li>Complete lead magnet strategy, design & copywriting</li>
+            <li>Professional sales pages that actually convert</li>
+            <li>Email campaigns optimized for your audience</li>
+            <li>Clear communication and fast execution</li>
+            <li>14-day guarantee — walk away if you're not satisfied</li>
           </ul>
         </div>
         <div>
           <div class="form-card">
-            <h3>Claim Your Free Lead Magnet</h3>
-            <p class="muted">Limited to 10 coaches only</p>
+            <h3>Let's Work Together</h3>
+            <p class="muted">Start building your email list today</p>
             <div class="urgency">
-              <span class="pill">🔥 <strong id="slotsLeft">{{ $slotsRemaining }}</strong> spots left</span>
+              <span class="pill">🔥 <strong id="slotsLeft">{{ $slotsRemaining }}</strong> spots available this month</span>
               <span class="pill dark">⏳ Bonus ends in <strong id="countdown"></strong></span>
             </div>
             <form method="POST" action="{{ route('leadmagnet.submit') }}" id="leadForm">
               @csrf
-              <input type="text" name="school_name" placeholder="Your Coaching Business Name" required>
+              <input type="text" name="school_name" placeholder="Your Business Name" required>
               <input type="text" name="your_name" placeholder="Your Name" required>
               <input type="email" name="email" placeholder="Email Address" required>
               <input type="tel" name="phone" placeholder="Phone Number" required>
-              <button type="submit" class="btn-primary">Get My Free Lead Magnet →</button>
+              <button type="submit" class="btn-primary">Start My Email Growth Journey →</button>
             </form>
             <div style="margin-top:18px; margin-bottom:6px; background:rgba(255,106,0,0.07); border-radius:8px; padding:14px 18px; color:#222; font-size:15px; text-align:center;">
-              <strong>Note:</strong> If you truly value my effort and want to pay, you can send me <span style="color:#ff6a00;font-weight:700;">$100</span> — but if not, that's totally fine! I promised this would be free, and I'm happy to help regardless. 😊
+              <strong>14-Day Satisfaction Guarantee:</strong> Work with me for 14 days. If you're not completely satisfied with the strategy, execution, or communication, you can walk away — <span style="color:#ff6a00;font-weight:700;">no payment required</span>. I only work with clients who feel confident we're building something that truly grows.
             </div>
             <p class="form-foot">🔒 We respect your privacy. No spam, ever.</p>
           </div>
@@ -657,10 +657,10 @@
   <!-- STORY -->
   <section class="section">
     <div class="container">
-      <h2>Why We're Giving This Away <span class="highlight">for Free</span></h2>
-      <p>Here's the truth: Most online coaches waste thousands on Facebook ads that bring in tire-kickers, not serious clients. You deserve better.</p>
-      <p>We've spent years perfecting lead magnets for coaching businesses that convert at <strong>35%+</strong> — meaning 35 out of 100 people who see your lead magnet actually download it and join your email list. That's the difference between crickets and a waitlist.</p>
-      <p>We're offering this to 10 coaches because we want to prove our work speaks for itself. When you see qualified clients pouring in, you'll know who to call for the next step.</p>
+      <h2>Why <span class="highlight">Email Growth Partner</span>?</h2>
+      <p>Here's the truth: Most businesses struggle to grow their email list because they lack strategy, execution, or both. You need someone who understands what converts and can deliver it.</p>
+      <p>I've spent years perfecting lead magnets and email campaigns that convert at <strong>35%+</strong> — meaning 35 out of 100 people who see your lead magnet actually download it and join your email list. That's the difference between crickets and a thriving audience.</p>
+      <p>I work with a limited number of clients each month because I believe in quality over quantity. When we work together, you get my full attention and expertise — backed by a rock-solid guarantee.</p>
     </div>
   </section>
 
@@ -670,11 +670,12 @@
       <h2>How It Works <span class="highlight">(Dead Simple)</span></h2>
       <ol>
         <li><strong>Fill out the form above</strong> — Takes 60 seconds.</li>
-        <li><strong>We hop on a 20-minute call</strong> — We'll ask about your ideal client, your offer, and your goals.</li>
-        <li><strong>We design your lead magnet in 10 days</strong> — We handle the copywriting, design, and setup. You approve it.</li>
-        <li><strong>You launch it</strong> — Add it to your website, run a simple ad, and watch qualified leads roll in.</li>
+        <li><strong>We hop on a discovery call</strong> — I'll learn about your audience, your goals, and what you want to build.</li>
+        <li><strong>I create your strategy & assets</strong> — Lead magnets, sales pages, email campaigns — all designed to convert.</li>
+        <li><strong>We launch together</strong> — I'll guide you through implementation and make sure everything works.</li>
+        <li><strong>14-day checkpoint</strong> — If you're not satisfied, walk away. No payment. No hard feelings.</li>
       </ol>
-      <p style="margin-top: 16px;">No ongoing commitments. No hidden fees. Just a killer lead magnet that works.</p>
+      <p style="margin-top: 16px;">Clear communication. Fast execution. Results you can measure.</p>
     </div>
   </section>
 
@@ -702,8 +703,11 @@
   <!-- GUARANTEE -->
   <section class="section">
     <div class="container">
-      <h2>Our <span class="highlight">100% Satisfaction</span> Guarantee</h2>
-      <p>If you're not absolutely thrilled with your lead magnet, we'll revise it until you are — or we'll scrap the project, no hard feelings. You risk nothing.</p>
+      <h2>14-Day <span class="highlight">Satisfaction Guarantee</span></h2>
+      <p><strong>Work with me for 14 days.</strong></p>
+      <p>If you're not completely satisfied with the strategy, execution, or communication, you can walk away — <strong>no payment required</strong>.</p>
+      <p>I only work with clients who feel confident we're building something that truly grows.</p>
+      <p style="margin-top: 20px; font-style: italic; color: #6b6b6b;">This isn't about lock-in contracts or pressure. It's about building trust and delivering real value.</p>
     </div>
   </section>
 
@@ -711,10 +715,10 @@
   <section class="section">
     <div class="container">
       <h2>Imagine This: <span class="highlight">90 Days from Now</span></h2>
-      <p>You wake up to <strong>47 new email subscribers</strong> — all qualified US clients who downloaded your lead magnet overnight.</p>
-      <p>Your inbox has <strong>12 discovery call requests</strong>. Your calendar is filling up. You're no longer chasing clients — they're coming to you.</p>
-      <p>Your cost per acquisition? <strong>Pennies</strong>. Your time spent on marketing? <strong>Cut in half</strong>. Your revenue? <strong>Up 30% and climbing</strong>.</p>
-      <p><strong>This is what a great lead magnet does.</strong> It runs 24/7, attracting the right people while you focus on coaching.</p>
+      <p>You wake up to <strong>47 new email subscribers</strong> — all qualified leads who downloaded your lead magnet overnight.</p>
+      <p>Your email list is growing steadily. Your campaigns are converting. You're building real relationships with your audience.</p>
+      <p>Your cost per acquisition? <strong>Lower than ever</strong>. Your time spent on marketing? <strong>More strategic</strong>. Your revenue? <strong>Growing consistently</strong>.</p>
+      <p><strong>This is what a great email strategy does.</strong> It runs 24/7, attracting the right people while you focus on what you do best.</p>
     </div>
   </section>
 
@@ -724,10 +728,10 @@
       <h2>But Wait… Why Should I Trust You?</h2>
       <p>Fair question. Here's why:</p>
       <ul>
-        <li><strong>We've done this before.</strong> We've built lead magnets for 40+ coaching businesses across multiple niches. We know what works.</li>
-        <li><strong>We're not asking for money upfront.</strong> This is free. If you love it, great. If not, you owe us nothing.</li>
-        <li><strong>We're limiting this to 10 coaches.</strong> We can't scale free work forever. We're only doing this to build case studies and prove our value.</li>
-        <li><strong>You keep full ownership.</strong> The lead magnet is yours. Use it however you want, forever.</li>
+        <li><strong>I've done this before.</strong> I've built lead magnets and email campaigns for businesses across multiple niches. I know what works.</li>
+        <li><strong>I stand behind my work.</strong> The 14-day guarantee means you risk nothing. If you're not satisfied, you don't pay.</li>
+        <li><strong>I work with limited clients.</strong> I can't work with everyone. I focus on quality, not quantity — which means you get my full attention.</li>
+        <li><strong>You keep full ownership.</strong> Everything I create is yours. Use it however you want, forever.</li>
       </ul>
     </div>
   </section>
@@ -737,17 +741,17 @@
     <div class="container">
       <h2>This is FOR You If...</h2>
       <ul class="checkmarks-light">
-        <li>You run an online coaching business targeting US clients (health, business, life, career, etc.)</li>
+        <li>You run an online business (coaching, consulting, courses, services, etc.)</li>
         <li>You're tired of expensive ads that don't convert</li>
         <li>You want to build an email list of qualified prospects</li>
-        <li>You're willing to implement what we create</li>
-        <li>You want a proven, done-for-you solution — fast</li>
+        <li>You're willing to implement what I create</li>
+        <li>You value clear communication and fast execution</li>
       </ul>
       <h2 style="margin-top: 40px;">This is NOT For You If...</h2>
       <ul style="list-style: none; margin: 24px 0 0 0;">
         <li style="padding: 14px 0 14px 40px; position: relative; color: #2a2a2a; line-height: 1.7;">
           <span style="position: absolute; left: 0; top: 14px; width: 28px; height: 28px; background: #d93025; border-radius: 50%; color: white; font-weight: 900; font-size: 18px; text-align: center; line-height: 28px; box-shadow: 0 4px 15px rgba(217, 48, 37, 0.3);">✗</span>
-          You're not serious about growing your coaching business
+          You're not serious about growing your business
         </li>
         <li style="padding: 14px 0 14px 40px; position: relative; color: #2a2a2a; line-height: 1.7;">
           <span style="position: absolute; left: 0; top: 14px; width: 28px; height: 28px; background: #d93025; border-radius: 50%; color: white; font-weight: 900; font-size: 18px; text-align: center; line-height: 28px; box-shadow: 0 4px 15px rgba(217, 48, 37, 0.3);">✗</span>
@@ -770,7 +774,7 @@
     <div class="container">
       <h2>You Have Two Choices Right Now</h2>
       <p><strong>Option 1:</strong> Keep doing what you're doing. Keep paying for ads that underperform. Keep manually chasing down leads. Keep wondering why your competitors are growing faster than you.</p>
-      <p><strong>Option 2:</strong> Fill out the form, get your free lead magnet in 10 days, and start building a system that attracts students on autopilot.</p>
+      <p><strong>Option 2:</strong> Work with me to build a real email growth strategy, backed by a 14-day guarantee, and start attracting leads on autopilot.</p>
       <p>Which sounds better?</p>
     </div>
   </section>
@@ -778,9 +782,9 @@
   <!-- SCARCITY -->
   <section class="section">
     <div class="container">
-      <h2>Only <span class="highlight">10 Spots Available</span> (Seriously)</h2>
-      <p>We can only handle 10 coaches in this round. When those spots are gone, we're closing applications until Q3 2025.</p>
-      <p>Right now, <strong id="slotsLeft2">{{ $slotsRemaining }}</strong> spots remain. Don't wait — coaches are claiming these every day.</p>
+      <h2>Limited <span class="highlight">Availability</span> This Month</h2>
+      <p>I work with a limited number of clients each month to ensure quality. When my schedule is full, new clients will need to wait.</p>
+      <p>Right now, <strong id="slotsLeft2">{{ $slotsRemaining }}</strong> spots remain for this month. Don't wait — these fill up quickly.</p>
     </div>
   </section>
 
@@ -789,39 +793,39 @@
     <div class="container">
       <h2>Frequently Asked <span class="highlight">Questions</span></h2>
       <div class="faq-item">
-        <button class="faq-q">Why are you doing this for free?</button>
+        <button class="faq-q">How does the 14-day guarantee work?</button>
         <div class="faq-a">
-          <p>We're building case studies and proving our value. When you see results, we hope you'll consider working with us on paid projects. But there's no obligation.</p>
+          <p>Work with me for 14 days. If you're not completely satisfied with the strategy, execution, or communication, you can walk away — no payment required. Simple as that.</p>
         </div>
       </div>
       <div class="faq-item">
-        <button class="faq-q">What if I don't like the lead magnet you create?</button>
+        <button class="faq-q">What if I don't like what you create?</button>
         <div class="faq-a">
-          <p>We'll revise it until you love it. If you're still not satisfied, we'll part ways — no hard feelings, no cost to you.</p>
+          <p>I'll revise it until you love it. If you're still not satisfied within the first 14 days, we'll part ways — no hard feelings, no cost to you.</p>
         </div>
       </div>
       <div class="faq-item">
         <button class="faq-q">How long does this take?</button>
         <div class="faq-a">
-          <p>10 business days from our kickoff call to final delivery. We move fast.</p>
+          <p>Typically 10-14 business days from our kickoff call to final delivery, depending on the scope. I move fast without sacrificing quality.</p>
         </div>
       </div>
       <div class="faq-item">
         <button class="faq-q">Do I need to know how to code or design?</button>
         <div class="faq-a">
-          <p>Nope. We handle everything — copywriting, design, and setup instructions. You just approve and launch.</p>
+          <p>Nope. I handle everything — copywriting, design, and setup instructions. You just approve and launch.</p>
         </div>
       </div>
       <div class="faq-item">
         <button class="faq-q">What kind of lead magnet will you create?</button>
         <div class="faq-a">
-          <p>It depends on your audience and offer. Could be a quiz, a downloadable guide, a free training video, a roadmap, a checklist, or something custom. We'll figure out what converts best for your coaching niche.</p>
+          <p>It depends on your audience and offer. Could be a quiz, a downloadable guide, a free training video, a roadmap, a checklist, or something custom. We'll figure out what converts best for your business.</p>
         </div>
       </div>
       <div class="faq-item">
-        <button class="faq-q">Is there a catch?</button>
+        <button class="faq-q">What's your pricing?</button>
         <div class="faq-a">
-          <p>No catch. This is genuinely free. We're investing in building relationships with great coaches. If you love the work, we hope you'll think of us for future projects. That's it.</p>
+          <p>Every project is different, so pricing varies based on scope. After our discovery call, I'll provide a clear quote. Remember: you have 14 days to decide if we're a good fit.</p>
         </div>
       </div>
     </div>
@@ -831,10 +835,10 @@
   <section class="section">
     <div class="container">
       <h2>🎁 Exclusive 48-Hour Bonus</h2>
-      <p>If you claim your spot in the next <strong id="countdown2"></strong>, we'll throw in:</p>
+      <p>If you claim your spot in the next <strong id="countdown2"></strong>, you'll get:</p>
       <ul>
-        <li><strong>A 30-minute conversion optimization audit</strong> (worth $500) — We'll review your website and give you 5 quick wins to boost client bookings.</li>
-        <li><strong>Email templates</strong> to follow up with leads who download your magnet.</li>
+        <li><strong>A 30-minute conversion optimization audit</strong> (worth $500) — I'll review your website and give you 5 quick wins to boost conversions.</li>
+        <li><strong>Email templates</strong> to follow up with leads who download your lead magnet.</li>
       </ul>
       <p>This bonus disappears when the timer hits zero. Don't miss it.</p>
     </div>
@@ -843,40 +847,39 @@
   <!-- VALUE STACK -->
   <section class="section">
     <div class="container">
-      <h2>Here's Everything You're Getting <span class="highlight">(Total Value: $3,200)</span></h2>
+      <h2>What You Get as an <span class="highlight">Email Growth Partner</span></h2>
       <div class="value-grid">
         <div class="value-item">
-          <strong>Custom Lead Magnet Design</strong>
-          <p>Copywriting, design, and strategy tailored to your coaching niche.</p>
-          <div class="price">$1,200</div>
+          <strong>Custom Lead Magnet Strategy & Design</strong>
+          <p>Copywriting, design, and strategy tailored to your business and audience.</p>
+          <div class="price">Included</div>
         </div>
         <div class="value-item">
-          <strong>10-Day Delivery</strong>
-          <p>Fast turnaround so you can start capturing leads ASAP.</p>
-          <div class="price">$400</div>
+          <strong>Professional Sales Pages</strong>
+          <p>High-converting landing pages that turn visitors into subscribers.</p>
+          <div class="price">Included</div>
         </div>
         <div class="value-item">
-          <strong>Unlimited Revisions</strong>
-          <p>We'll tweak it until it's perfect for your audience.</p>
-          <div class="price">$600</div>
+          <strong>Email Campaign Setup</strong>
+          <p>Nurture sequences and promotional campaigns that convert.</p>
+          <div class="price">Included</div>
         </div>
         <div class="value-item">
-          <strong>Setup Instructions</strong>
-          <p>Step-by-step guide to launch your lead magnet.</p>
-          <div class="price">$200</div>
+          <strong>Fast Delivery</strong>
+          <p>Most projects completed in 10-14 days so you can start growing ASAP.</p>
+          <div class="price">Included</div>
         </div>
         <div class="value-item">
           <strong>Conversion Audit (Bonus)</strong>
           <p>30-minute review of your website + 5 quick wins.</p>
-          <div class="price">$500</div>
+          <div class="price">Bonus</div>
         </div>
         <div class="value-item">
-          <strong>Follow-Up Email Templates (Bonus)</strong>
-          <p>Proven email sequences to nurture your new leads.</p>
-          <div class="price">$300</div>
+          <strong>14-Day Satisfaction Guarantee</strong>
+          <p>Not satisfied? Walk away. No payment required.</p>
+          <div class="price">Peace of Mind</div>
         </div>
       </div>
-      <div class="value-total">Total Value: $3,200 — Yours FREE</div>
     </div>
   </section>
 
@@ -884,35 +887,35 @@
   <section class="section">
     <div class="container">
       <h2>The Real Cost of <span class="highlight">Doing Nothing</span></h2>
-      <p>Every day you wait, your competitors are getting better at attracting clients. They're building email lists. They're nurturing leads. They're growing.</p>
-      <p>Meanwhile, you're spending money on ads that barely break even. You're watching discovery call bookings trickle in. You're stuck in the grind.</p>
+      <p>Every day you wait, your competitors are getting better at attracting leads. They're building email lists. They're nurturing relationships. They're growing.</p>
+      <p>Meanwhile, you're spending money on ads that barely break even. You're watching your conversion rates stay flat. You're stuck in the grind.</p>
       <p><strong>Six months from now, you'll wish you started today.</strong></p>
-      <p>This is your chance to level up — for free. Don't let it slip by.</p>
+      <p>This is your chance to level up — backed by a risk-free guarantee. Don't let it slip by.</p>
     </div>
   </section>
 
   <!-- ONE-TIME OFFER -->
   <section class="section">
     <div class="container">
-      <h2>This Offer Won't Last</h2>
-      <p>Once we hit 10 coaches, we're pulling this page down and focusing on delivering exceptional work to the coaches who took action.</p>
-      <p>We won't reopen this until Q3 2025 — and when we do, it won't be free.</p>
-      <p><strong>This is your window. Use it.</strong></p>
+      <h2>Limited Availability This Month</h2>
+      <p>I work with a limited number of clients each month to ensure every project gets my full attention and delivers results.</p>
+      <p>When my schedule is full, new clients will need to wait until next month.</p>
+      <p><strong>This is your window. Take it.</strong></p>
     </div>
   </section>
 
   <!-- FINAL CTA -->
   <section class="cta-section">
     <div class="container">
-      <h2>Ready to Transform Your <span class="highlight">Client Acquisition</span>?</h2>
-      <p>Claim your free lead magnet now. <strong id="slotsLeft3">{{ $slotsRemaining }}</strong> spots left.</p>
-      <a href="#leadForm" class="btn-white">Get My Free Lead Magnet →</a>
+      <h2>Ready to Grow Your <span class="highlight">Email List</span>?</h2>
+      <p>Let's build something great together. <strong id="slotsLeft3">{{ $slotsRemaining }}</strong> spots available this month.</p>
+      <a href="#leadForm" class="btn-white">Start My Email Growth Journey →</a>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 LeadMagnet Pro. All rights reserved.</p>
+      <p>&copy; 2025 Email Growth Partner. All rights reserved.</p>
     </div>
   </footer>
 
